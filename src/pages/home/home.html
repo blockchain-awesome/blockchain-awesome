@@ -1,12 +1,17 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      田一块区块链导航
+    <ion-title *ngIf="item">
+      {{item.title}}
+    </ion-title>
+    <ion-title *ngIf="!item">
+      田一块加密币导航
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <site-item>
-  </site-item>
+  <ul class="root" *ngIf="item">
+    <site-item *ngFor="let child of item.items" [item]="child">
+    </site-item>
+  </ul>
 </ion-content>

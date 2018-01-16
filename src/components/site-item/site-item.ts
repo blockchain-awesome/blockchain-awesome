@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 /**
  * Generated class for the SiteItemComponent component.
@@ -11,18 +11,12 @@ import { Component } from '@angular/core';
   templateUrl: 'site-item.html'
 })
 export class SiteItemComponent {
-  items: object[];
-
+  // private static parentStacks: object[];
+  @Input() item: object;
+  @Input() parent: object;
+  
   constructor() {
-    this.items = [{
-      name: 'Hello World',
-      url: '',
-      icon: ''
-    }, {
-      name: 'Hello World',
-      url: '',
-      icon: ''
-    }];
+
   }
 
 }

@@ -1,6 +1,15 @@
 <!-- Generated template for the SiteItemComponent component -->
-<ul>
-  <li *ngFor="let item of items" >
-    {{item.name}}
-  </li>
-</ul>
+<li class="title" *ngIf="item && item.items && item.items.length">
+  <h3><a *ngIf="item.favicon" target="nav" title="{{item.title}}" href="{{item.url}}">
+        <img src="{{item.favicon}}"></a>{{item.name}}</h3>
+  <ul>
+    <site-item [parent]="item" *ngFor="let child of item.items" [item]="child"></site-item>
+  </ul>
+</li>
+
+<li *ngIf="item && !(item.items && item.items.length)">
+  <a target="nav" title="{{item.title}}" href="{{item.url}}" class="item">
+        <img src="/assets/{{item.favicon}}">
+         <span>{{item.name}}</span> 
+      </a>
+</li>
