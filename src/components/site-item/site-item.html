@@ -1,15 +1,12 @@
 <!-- Generated template for the SiteItemComponent component -->
-<li class="title" *ngIf="item && item.items && item.items.length">
-  <h3><a *ngIf="item.favicon" target="nav" title="{{item.title}}" href="{{item.url}}">
-        <img src="{{item.favicon}}"></a>{{item.name}}</h3>
-  <ul>
-    <site-item [parent]="item" *ngFor="let child of item.items" [item]="child"></site-item>
-  </ul>
-</li>
-
-<li *ngIf="item && !(item.items && item.items.length)">
-  <a target="nav" title="{{item.title}}" href="{{item.url}}" class="item">
-        <img src="{{item.favicon}}">
-         <span>{{item.name}}</span> 
-      </a>
-</li>
+<ion-list-header class="title" *ngIf="item && item.items && item.items.length">
+  <h3>{{item.name}}</h3>
+</ion-list-header>
+<site-item [parent]="item" *ngFor="let child of item.items" [item]="child"></site-item>
+<ion-item *ngIf="item && !(item.items && item.items.length)">
+  <ion-avatar item-start>
+    <img src="{{item.favicon}}" />
+  </ion-avatar>
+  <h2><a target="_blank" title="{{item.title}}" href="{{item.url}}">{{item.name}}</a></h2>
+  <p>{{item.desc || item.title}}</p>
+</ion-item>

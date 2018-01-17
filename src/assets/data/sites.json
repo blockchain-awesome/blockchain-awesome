@@ -4,43 +4,135 @@
   "title": "田一块币圈导航",
   "items": [
     {
-      "name": "各类主流币",
-      "title": "各类主流币",
+      "name": "加密币",
+      "title": "加密币",
       "order": 1,
       "items": [
         {
-          "name": "BitCoin",
-          "title": "第一个加密货币",
+          "name": "各类主流币",
+          "title": "各类主流币",
           "order": 1,
-          "url": "https://bitcoin.org/",
-          "favicon": "https://bitcoin.org/img/icons/logo_ios.png"
+          "items": [
+            {
+              "name": "BitCoin",
+              "title": "第一个加密货币",
+              "order": 1,
+              "url": "https://bitcoin.org/",
+              "favicon": "https://bitcoin.org/img/icons/logo_ios.png"
+            },
+            {
+              "url": "https://www.ethereum.org/",
+              "favicon": "https://www.ethereum.org/favicon.ico",
+              "name": "ETH",
+              "title": "基于智能合约的新一代加密货币"
+            },
+            {
+              "url": "https://litecoin.org/",
+              "favicon": "https://litecoin.org/img/litecoin.png",
+              "name": "LiteCoin",
+              "title": ""
+            },
+            {
+              "url": "https://getmonero.org/",
+              "favicon": "https://getmonero.org/meta/apple-touch-icon.png",
+              "name": "MONERO"
+            },
+            {
+              "url": "https://www.dash.org/",
+              "favicon": "https://www.dash.org/favicon.ico",
+              "name": "DASH"
+            },
+            {
+              "url": "https://z.cash/",
+              "favicon": "https://z.cash/theme/images/favicon.ico",
+              "name": "ZCash"
+            },
+            {
+              "url": "https://ethereumclassic.github.io/",
+              "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAsVBMVEVMaXGMrZaduaZ0nIGyyLmwxrevxbbl7ejH18ySspxul3taiWl+o4nS39bM29GpwbGIqpLX49vE1cnP3dOKrJXL2c9zm4CbuKSDp46pwrGowbCCpYyYtaGwxrdjkHBejGyhvKl1nYJtl3pvmXyrwrKFp5CUs55ejWy2y7x2noJlknNnk3VlkXJnknRYiGdci2plkXNSg2JLfltfjW1PgV9VhWRij29Ge1dIfVlAd1E2cEgXNb6UAAAALHRSTlMAt43JIXB3HwWg7fm/DUpCrT1WNJIW+WuUNU7SWWTu84Dr29pci4fgK7Dn1X6gnNYAAAFNSURBVBgZfcFXgtpAEAXAB8oiiRw3r3P35FHg/gcz9tcKJFXhzlOMYc8TDIpMPcaApbGlmaPf1DC7KXpFlVLEVYweSyeZFFu3RrepYbphU6BTbJRS9I+J0GGtJbP1wjKLyRaPpo6Fps031oJNhgdxJfzbIQS2mzetqxXuJJXLLwA+9wD2u+YH7pyDEMD3XOjdJgWO+QgtyQL4mZEWJQu3O4TAJUHb6ey1ZSKlWGobHNF2krUmRUSKblTpnVygZRFIUTL9xyT9x9MMX6UpTs9CsiJFyooyAmb4Ks2OwN5qy2y1HwPprzla5uYApGPpvShC4GJHuDO+5gtge/69BsLR9Q8eZFf5HuJmVpSNSPAgeXGesxSvuZP1Ch3mvpTuI9CCTYFO44ZZSmL3jh6BYSKW9RI9kolgIvOKXnFDXBUYkNVikmDA7KVZYVA0QttftIEuIW5ikqcAAAAASUVORK5CYII=",
+              "name": "ETC"
+            }
+          ]
         },
         {
-          "url": "https://www.ethereum.org/",
-          "favicon": "https://www.ethereum.org/favicon.ico",
-          "name": "ETH",
-          "title": "基于智能合约的新一代加密货币"
+          "name": "各类山寨币",
+          "title": "各类山寨币",
+          "order": 1,
+          "items": [
+            {
+              "url": "https://ripple.com/",
+              "favicon": "https://ripple.com/wp-content/themes/ripple-beta/assets/img/favicon.ico",
+              "name": "Ripple"
+            },
+            {
+              "url": "https://neo.org/",
+              "favicon": "https://neo.org/images/favicon.png",
+              "name": "NEO"
+            },
+            {
+              "url": "https://eos.io/",
+              "favicon": "/assets/images/eos.ico",
+              "name": "EOS"
+            }
+          ]
         },
         {
-          "url": "https://litecoin.org/",
-          "favicon": "https://litecoin.org/img/litecoin.png",
-          "name": "LiteCoin",
-          "title": ""
+          "name": "各类儿子币",
+          "title": "各类儿子币",
+          "order": 1,
+          "items": [
+            {
+              "url": "https://www.bitcoincash.org/",
+              "favicon": "https://www.bitcoincash.org/favicon.ico",
+              "name": "BitCoin Cash(BCH)"
+            },
+            {
+              "url": "https://bitcoingold.org/",
+              "favicon": "https://btcgpu.org/wp-content/uploads/2017/10/BLOGO.png",
+              "name": "BitCoin Gold(BTG)"
+            },
+            {
+              "url": "http://www.btcd.io/",
+              "favicon": "https://btcdimage.blob.core.windows.net/websitev2/favicon.ico",
+              "name": "Bitcoin Diamond (BCD)"
+            }
+          ]
         },
         {
-          "url": "https://getmonero.org/",
-          "favicon": "https://getmonero.org/meta/apple-touch-icon.png",
-          "name": "MONERO"
+          "name": "各类传销币",
+          "title": "各类传销币",
+          "order": 1,
+          "items": [
+            {
+              "url": "https://tky.im/",
+              "favicon": "assets/icon/logo.png",
+              "name": "欢迎举报"
+            }
+          ]
         },
         {
-          "url": "https://www.dash.org/",
-          "favicon": "https://www.dash.org/favicon.ico",
-          "name": "DASH"
-        },
+          "name": "各类传销币",
+          "title": "各类传销币",
+          "order": 1,
+          "items": [
+            {
+              "url": "https://tky.im/",
+              "favicon": "assets/icon/logo.png",
+              "name": "欢迎举报"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "交易所",
+      "title": "交易所",
+      "order": 1,
+      "items": [
         {
-          "url": "https://z.cash/",
-          "favicon": "https://z.cash/theme/images/favicon.ico",
-          "name": "ZCash"
+          "url": "https://tky.im/",
+          "favicon": "assets/icon/logo.png",
+          "name": "欢迎举报"
         }
       ]
     }

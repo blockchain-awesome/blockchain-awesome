@@ -3,9 +3,12 @@ site-item {
     width: 32px;
     height: 32px;
   }
-
   a {
     display: inline;
+    text-decoration: none;
+    color: #333;
   }
-
+  .item-md h2, .item-ios h2 {
+    font-size: 1.8rem;
+  }
 }

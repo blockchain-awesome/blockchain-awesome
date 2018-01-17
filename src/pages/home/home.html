@@ -10,8 +10,8 @@
 </ion-header>
 
 <ion-content padding>
-  <ul class="root" *ngIf="item">
+  <ion-list *ngIf="item">
     <site-item *ngFor="let child of item.items" [item]="child">
     </site-item>
-  </ul>
+  </ion-list>
 </ion-content>
