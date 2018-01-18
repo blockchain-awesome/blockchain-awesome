@@ -109,18 +109,6 @@
               "name": "欢迎举报"
             }
           ]
-        },
-        {
-          "name": "各类传销币",
-          "title": "各类传销币",
-          "order": 1,
-          "items": [
-            {
-              "url": "https://tky.im/",
-              "favicon": "assets/icon/logo.png",
-              "name": "欢迎举报"
-            }
-          ]
         }
       ]
     },
@@ -130,9 +118,9 @@
       "order": 1,
       "items": [
         {
-          "url": "https://tky.im/",
-          "favicon": "assets/icon/logo.png",
-          "name": "欢迎举报"
+          "url": "https://www.bitfinex.com/",
+          "favicon": "https://www.bitfinex.com/assets/favicon.ico",
+          "name": "BITFINEX"
         }
       ]
     }
