@@ -135,13 +135,13 @@
         },
         {
           "url": "https://poloniex.com/",
-          "favicon": "https://poloniex.com/favicon.ico",
+          "favicon": "assets/images/poloniex.ico",
           "name": "poloniex",
           "title": "一个让我想到了凤凰的交易所"
         },
         {
           "url": "https://bittrex.com/",
-          "favicon": "https://bittrex.com/Content/img/logos/bittrex.ico",
+          "favicon": "assets/images/bittrex.ico",
           "name": "bittrex",
           "title": "名字有点科幻"
         }

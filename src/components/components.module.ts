@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
-import { SiteItemComponent } from './site-item/site-item';
 @NgModule({
-	declarations: [SiteItemComponent],
+	declarations: [],
 	imports: [],
-	exports: [SiteItemComponent]
+	exports: []
 })
 export class ComponentsModule {}
