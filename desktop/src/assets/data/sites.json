@@ -7,6 +7,7 @@
       "name": "加密币",
       "title": "加密币",
       "order": 1,
+      "more": "https://forum.webfullstack.me/?category=5a76e90ce330b34d3feb1545",
       "items": [
         {
           "name": "BitCoin",
@@ -90,8 +91,8 @@
       ]
     },
     {
-      "name": "交易所",
-      "title": "交易所",
+      "name": "综合性交易所",
+      "title": "综合性交易所",
       "order": 1,
       "items": [
         {
@@ -111,6 +112,80 @@
           "favicon": "assets/images/bittrex.ico",
           "name": "bittrex",
           "title": "名字有点科幻"
+        },
+        {
+          "url": "https://gate.io/",
+          "favicon": "https://gate.io/images/apple-touch-icon-120x120.png",
+          "name": "gate",
+          "title": "国内山寨币上的比较多的平台"
+        },
+        {
+          "url": "https://www.okex.com/",
+          "favicon": "https://img.bafang.com/v_20180210192537/okex/favicon-v2.ico",
+          "name": "okex",
+          "title": "专业机器人交易平台"
+        },
+        {
+          "url": "https://www.huobi.pro",
+          "favicon": "https://www.huobi.pro/favicon.ico",
+          "name": "火币网",
+          "title": "火币网交易平台"
+        },
+        {
+          "url": "https://www.binance.com",
+          "favicon": "assets/images/binance_icon.png",
+          "name": "币安网",
+          "title": "某国外中文交易平台"
+        },
+        {
+          "url": "https://www.zb.com/",
+          "favicon": "https://s.zb.com/statics/img/favicon/favicon_red.ico",
+          "name": "ZB(装币网)",
+          "title": "中文交易平台"
+        }
+      ]
+    },
+    {
+      "name": "点对点交易所",
+      "title": "点对点交易所",
+      "order": 1,
+      "items": [
+        {
+          "url": "https://localbitcoins.com",
+          "favicon": "https://localbitcoins.com/cached-static/img/touch-icon-144.28f60a5711cc.png",
+          "name": "localbitcoins",
+          "title": "某国外点对点交易平台"
+        }
+      ]
+    },
+    {
+      "name": "矿池信息",
+      "title": "主要矿池信息",
+      "order": 1,
+      "items": [
+        {
+          "url": "https://www.f2pool.com/",
+          "favicon": "https://www.f2pool.com/static/images/f2pool.png",
+          "name": "鱼池",
+          "title": "一个产鱼的池子"
+        },
+        {
+          "url": "https://www.antpool.com",
+          "favicon": "https://www.antpool.com/skin/frontend/base/default/favicon.ico",
+          "name": "蚂蚁矿池",
+          "title": "一个被蚂蚁占领的池子"
+        },
+        {
+          "url": "https://pool.btc.com/",
+          "favicon": "https://s2.btc.com/pool/assets/images/favicon.c442f8c.ico",
+          "name": "BTC矿池",
+          "title": "一个BTC为主的矿池"
+        },
+        {
+          "url": "http://www.btc.top",
+          "favicon": "http://www.btc.top/images/favicon.png",
+          "name": "莱比特矿池",
+          "title": "莱比特矿池"
         }
       ]
     }

@@ -1,5 +1,5 @@
   .logo {
-    margin: 30px auto 40px;
+    margin: 20px auto 20px;
     >a {
       display: block;
       width: 160px;
@@ -7,7 +7,10 @@
       margin: 0 auto;
       text-align: center;
     }
+    p {
+      margin-top: 10px;
+    }
     img {
-      height: 70px;
+      height: 50px;
     }
   }
