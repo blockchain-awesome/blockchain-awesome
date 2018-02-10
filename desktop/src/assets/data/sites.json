@@ -142,6 +142,24 @@
           "favicon": "https://s.zb.com/statics/img/favicon/favicon_red.ico",
           "name": "ZB(装币网)",
           "title": "中文交易平台"
+        },
+        {
+          "url": "https://shapeshift.io",
+          "favicon": "https://shapeshift.io/images/SS_favicon_32.4d04345e.png",
+          "name": "shapeshift",
+          "title": "shapeshift"
+        },
+        {
+          "url": "https://www.kraken.com/",
+          "favicon": "https://www.kraken.com/img/favicon.ico",
+          "name": "Kraken",
+          "title": "Kraken"
+        },
+        {
+          "url": "https://www.bitstamp.net/",
+          "favicon": "assets/images/bitstamp.ico",
+          "name": "Bitstamp",
+          "title": "Bitstamp"
         }
       ]
     },
@@ -186,24 +204,74 @@
           "favicon": "http://www.btc.top/images/favicon.png",
           "name": "莱比特矿池",
           "title": "莱比特矿池"
-        }, 
+        },
         {
           "url": "http://poolgpu.com/",
           "favicon": "http://www.poolgpu.com/favicon.ico",
           "name": "GPU矿池",
           "title": "GPU矿池"
-        }, 
+        },
         {
           "url": "https://eth.ethfans.org",
           "favicon": "https://res.eth.ethfans.org/public/favicon.ico",
-          "name": "GPU矿池",
-          "title": "GPU矿池"
-        }, 
+          "name": "星火矿池",
+          "title": "星火矿池"
+        },
         {
           "url": "https://nanopool.org/",
           "favicon": "https://nanopool.org/icons/favicon-32x32.png",
           "name": "nanopool",
           "title": "nanopool"
+        }
+      ]
+    },
+    {
+      "name": "挖矿软件",
+      "title": "挖矿软件",
+      "order": 1,
+      "items": [
+        {
+          "url": "https://minergate.com/",
+          "favicon": "https://minergate.com/assets/apple-touch-icon.png",
+          "name": "Minergate",
+          "title": "Minergate"
+        },
+        {
+          "url": "https://www.kryptex.org",
+          "favicon": "https://www.kryptex.org/static/favicons/apple-touch-icon.png",
+          "name": "Kryptex",
+          "title": "Kryptex"
+        },
+        {
+          "url": "https://computta.com/",
+          "favicon": "https://computta.com/favicon.ico",
+          "name": "Computta",
+          "title": "Computta"
+        },
+        {
+          "url": "https://www.winminer.com/",
+          "favicon": "https://www.winminer.com/wp-content/uploads/2017/07/cropped-WinMiner_logo-192x192.png",
+          "name": "WinMiner",
+          "title": "WinMiner"
+        }
+      ]
+    },
+    {
+      "name": "论坛交流",
+      "title": "论坛交流",
+      "order": 1,
+      "items": [
+        {
+          "url": "https://bitcointalk.org/",
+          "favicon": "assets/images/bitcointalk.ico",
+          "name": "bitcointalk",
+          "title": "bitcointalk"
+        },
+        {
+          "url": "http://8btc.com/",
+          "favicon": "assets/images/8btc.ico",
+          "name": "巴比特论坛",
+          "title": "巴比特论坛"
         }
       ]
     }
