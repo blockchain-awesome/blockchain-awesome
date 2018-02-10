@@ -177,6 +177,74 @@
       ]
     },
     {
+      "name": "加密币通用钱包",
+      "title": "加密币通用钱包",
+      "order": 1,
+      "items": [
+        {
+          "url": "http://bitpie.com/",
+          "favicon": "http://bitpie.com/img/logo.png",
+          "name": "比特派",
+          "title": "比特派"
+        },
+        {
+          "url": "https://blockchain.info/",
+          "favicon": "https://blockchain.info/zh-cn/wallet/img/favicon/apple-icon-180x180-c35bbce112b3b59e55bd39b825a101eecf4975d5.png",
+          "name": "Blockchain",
+          "title": "Blockchain"
+        },
+        {
+          "url": "https://jaxx.io/",
+          "favicon": "https://jaxx.io/images/favicon.ico",
+          "name": "jaxx",
+          "title": "jaxx"
+        },
+        {
+          "url": "https://token.im/",
+          "favicon": "https://token.im/assets/site/reverse-228218d93c1cf401f7a8fc8e018d7956cba2bbbe3af5ca8f6c60e67df06a4057.png",
+          "name": "imToken",
+          "title": "imToken"
+        },
+        {
+          "url": "https://www.atoken.com/",
+          "favicon": "https://www.atoken.com/assets/img/favicon.ico",
+          "name": "AToken",
+          "title": "AToken"
+        }
+      ]
+    },
+    {
+      "name": "矿机厂家",
+      "title": "矿机厂家",
+      "order": 1,
+      "items": [
+        {
+          "url": "https://www.bitmain.com/",
+          "favicon": "https://www.bitmain.com/favicon.ico",
+          "name": "比特大陆",
+          "title": "比特大陆"
+        },
+        {
+          "url": "https://pandaminer.com/",
+          "favicon": "https://pandaminer.com/static/img/favicon.ico",
+          "name": "熊猫矿机",
+          "title": "熊猫矿机"
+        },
+        {
+          "url": "http://mall.ebang.com.cn/",
+          "favicon": "http://mall.ebang.com.cn/template/shop/company/public/images/favicon.ico",
+          "name": "翼比特矿机",
+          "title": "翼比特矿机"
+        },
+        {
+          "url": "https://ibelink.co/",
+          "favicon": "http://mall.ebang.com.cn/template/shop/company/public/images/favicon.ico",
+          "name": "翼比特矿机",
+          "title": "翼比特矿机"
+        }
+      ]
+    },
+    {
       "name": "矿池信息",
       "title": "主要矿池信息",
       "order": 1,

@@ -16,9 +16,13 @@
     width: 100%;
     text-align: center;
     font-size: 12px;
+
   }
   .donation>a {
     color: #333;
+    .fa-discord {
+      font-size: 24px;
+    }
   }
 }
 .left-padding {
