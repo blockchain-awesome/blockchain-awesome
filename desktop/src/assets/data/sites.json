@@ -186,6 +186,24 @@
           "favicon": "http://www.btc.top/images/favicon.png",
           "name": "莱比特矿池",
           "title": "莱比特矿池"
+        }, 
+        {
+          "url": "http://poolgpu.com/",
+          "favicon": "http://www.poolgpu.com/favicon.ico",
+          "name": "GPU矿池",
+          "title": "GPU矿池"
+        }, 
+        {
+          "url": "https://eth.ethfans.org",
+          "favicon": "https://res.eth.ethfans.org/public/favicon.ico",
+          "name": "GPU矿池",
+          "title": "GPU矿池"
+        }, 
+        {
+          "url": "https://nanopool.org/",
+          "favicon": "https://nanopool.org/icons/favicon-32x32.png",
+          "name": "nanopool",
+          "title": "nanopool"
         }
       ]
     }

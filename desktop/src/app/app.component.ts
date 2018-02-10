@@ -1,14 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+
+import { ElementRef, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  host: {
+    '(window:resize)': 'onResize($event)'
+  }
 })
+
 export class AppComponent {
   item: object;
-  constructor(private http: HttpClient) {
+  @ViewChild('main')
+  el: ElementRef;
+  constructor(private http: HttpClient, private rd: Renderer2) {
   }
 
   ngOnInit() {
@@ -25,6 +33,17 @@ export class AppComponent {
        */
       this.item = item;
     });
+  }
+  ngAfterViewInit() {
+    this.onResize();
+  }
+
+  onResize() {
+    if (window.innerWidth <= 576) {
+      this.el.nativeElement.style.paddingLeft = "15px";
+    } else {
+      this.el.nativeElement.style.paddingLeft = "240px";
+    }
   }
 }
 
