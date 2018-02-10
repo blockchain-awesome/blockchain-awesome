@@ -88,6 +88,9 @@ body {
 
 .type-list-a {
   margin: 10px auto;
+  a {
+    text-decoration: none;
+  }
 }
 
 .type-list-a>div {

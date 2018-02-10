@@ -15,7 +15,7 @@
 			</div>
 		</div>
 		<div id="">
-			<ul class="categories nav">
+			<ul class="categories nav" *ngIf="item">
 
 				<li *ngFor="let node of item.items">
 					<a href="#{{node.name}}" title="{{node.title}}" class="active">{{node.title}}</a>
@@ -32,25 +32,27 @@
 	<div class="container-fluid site-notice">
 		<i><img src="/assets/images/ico_notice.png"></i><a href="#">最好用的币圈导航上线了！</a>
 	</div>
-	<div *ngFor="let node of item.items" class="item-box" id="{{node.name}}">
-		<div class="tile">
-			<h2>{{node.title}}</h2>
-		</div>
-		<div class="row type-list-a">
-			<div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let one of node.items">
-				<a href="#">
+	<div *ngIf="item">
+		<div *ngFor="let node of item.items" class="item-box" id="{{node.name}}">
+			<div class="tile">
+				<h2>{{node.title}}</h2>
+			</div>
+			<div class="row type-list-a">
+				<div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let one of node.items">
+					<a href="#">
 				<i class="ico"><img src="{{one.favicon}}"></i>
 				<div class="info">
 					<h4>{{one.name}}</h4>
 					<p>
 						{{one.title}}
 					</p>
-					<span class="to-this-site"></span>
+					<a href="{{one.url}}" target="_blank" class="to-this-site"></a>
 				</div>
 				</a>
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 <div class="panel-footer">
 	<p>Copyright © T-block.com 2018 All Rights Reserved. 京ICP备00000000号 <a href="mailto:xxx@163.com">联系站长</a></p>
