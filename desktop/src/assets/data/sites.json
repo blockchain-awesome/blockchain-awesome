@@ -1,0 +1,118 @@
+{
+  "name": "田一块币圈导航",
+  "order": 1,
+  "title": "田一块币圈导航",
+  "items": [
+    {
+      "name": "加密币",
+      "title": "加密币",
+      "order": 1,
+      "items": [
+        {
+          "name": "BitCoin",
+          "title": "第一个加密货币",
+          "order": 1,
+          "url": "https://bitcoin.org/",
+          "favicon": "https://bitcoin.org/img/icons/logo_ios.png"
+        },
+        {
+          "url": "https://www.ethereum.org/",
+          "favicon": "https://www.ethereum.org/favicon.ico",
+          "name": "ETH",
+          "title": "基于智能合约的新一代加密货币"
+        },
+        {
+          "url": "https://litecoin.org/",
+          "favicon": "https://litecoin.org/img/litecoin.png",
+          "name": "LiteCoin",
+          "title": "第一个改进比特币的加密币"
+        },
+        {
+          "url": "https://getmonero.org/",
+          "favicon": "https://getmonero.org/meta/apple-touch-icon.png",
+          "name": "MONERO",
+          "title": "一个更加安全，注重隐私，不可追溯的加密币"
+        },
+        {
+          "url": "https://www.dash.org/",
+          "favicon": "https://www.dash.org/favicon.ico",
+          "name": "DASH",
+          "title": "更加快速的一个数字货币"
+        },
+        {
+          "url": "https://z.cash/",
+          "favicon": "https://z.cash/theme/images/favicon.ico",
+          "name": "ZCash",
+          "title": "支持隐藏交易记录的加密币"
+        },
+        {
+          "url": "https://ethereumclassic.github.io/",
+          "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAsVBMVEVMaXGMrZaduaZ0nIGyyLmwxrevxbbl7ejH18ySspxul3taiWl+o4nS39bM29GpwbGIqpLX49vE1cnP3dOKrJXL2c9zm4CbuKSDp46pwrGowbCCpYyYtaGwxrdjkHBejGyhvKl1nYJtl3pvmXyrwrKFp5CUs55ejWy2y7x2noJlknNnk3VlkXJnknRYiGdci2plkXNSg2JLfltfjW1PgV9VhWRij29Ge1dIfVlAd1E2cEgXNb6UAAAALHRSTlMAt43JIXB3HwWg7fm/DUpCrT1WNJIW+WuUNU7SWWTu84Dr29pci4fgK7Dn1X6gnNYAAAFNSURBVBgZfcFXgtpAEAXAB8oiiRw3r3P35FHg/gcz9tcKJFXhzlOMYc8TDIpMPcaApbGlmaPf1DC7KXpFlVLEVYweSyeZFFu3RrepYbphU6BTbJRS9I+J0GGtJbP1wjKLyRaPpo6Fps031oJNhgdxJfzbIQS2mzetqxXuJJXLLwA+9wD2u+YH7pyDEMD3XOjdJgWO+QgtyQL4mZEWJQu3O4TAJUHb6ey1ZSKlWGobHNF2krUmRUSKblTpnVygZRFIUTL9xyT9x9MMX6UpTs9CsiJFyooyAmb4Ks2OwN5qy2y1HwPprzla5uYApGPpvShC4GJHuDO+5gtge/69BsLR9Q8eZFf5HuJmVpSNSPAgeXGesxSvuZP1Ch3mvpTuI9CCTYFO44ZZSmL3jh6BYSKW9RI9kolgIvOKXnFDXBUYkNVikmDA7KVZYVA0QttftIEuIW5ikqcAAAAASUVORK5CYII=",
+          "name": "ETC",
+          "title": "经典的以太坊"
+        },
+        {
+          "url": "https://ripple.com/",
+          "favicon": "https://ripple.com/wp-content/themes/ripple-beta/assets/img/favicon.ico",
+          "name": "Ripple",
+          "title": "牛吹的最大的币，号称是最好的区块链"
+        },
+        {
+          "url": "https://neo.org/",
+          "favicon": "https://neo.org/images/favicon.png",
+          "name": "NEO",
+          "title": "让你以为是NGO的一种币"
+        },
+        {
+          "url": "https://eos.io/",
+          "favicon": "/assets/images/eos.ico",
+          "name": "EOS",
+          "title": "一个什么都想做的ETH山寨币"
+        },
+        {
+          "url": "https://www.bitcoincash.org/",
+          "favicon": "https://www.bitcoincash.org/favicon.ico",
+          "name": "BitCoin Cash(BCH)",
+          "title": "第一个比特币儿子"
+        },
+        {
+          "url": "https://bitcoingold.org/",
+          "favicon": "https://btcgpu.org/wp-content/uploads/2017/10/BLOGO.png",
+          "name": "BitCoin Gold(BTG)",
+          "title": "第一个不要脸的儿子"
+        },
+        {
+          "url": "http://www.btcd.io/",
+          "favicon": "https://btcdimage.blob.core.windows.net/websitev2/favicon.ico",
+          "name": "Bitcoin Diamond (BCD)",
+          "title": "第一个人们不想看到的的儿子"
+        }
+      ]
+    },
+    {
+      "name": "交易所",
+      "title": "交易所",
+      "order": 1,
+      "items": [
+        {
+          "url": "https://www.bitfinex.com/",
+          "favicon": "assets/images/bitfinex.ico",
+          "name": "BITFINEX",
+          "title": "第一个我使用的交易所"
+        },
+        {
+          "url": "https://poloniex.com/",
+          "favicon": "assets/images/poloniex.ico",
+          "name": "poloniex",
+          "title": "一个让我想到了凤凰的交易所"
+        },
+        {
+          "url": "https://bittrex.com/",
+          "favicon": "assets/images/bittrex.ico",
+          "name": "bittrex",
+          "title": "名字有点科幻"
+        }
+      ]
+    }
+  ]
+}

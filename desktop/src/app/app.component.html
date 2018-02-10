@@ -1,0 +1,57 @@
+<div class="left-nav">
+	<div class="logo">
+		<a href="index.html"><img src="/assets/images/logo.png"></a>
+	</div>
+	<div class="items">
+		<ul>
+			<!--<li><a href="#"><i><img src="/assets/images/ico_news.png"></i><span>今日新闻</span></a></li>
+			<li><a href="#"><i><img src="/assets/images/ico_forum.png"></i><span>区块论坛</span></a></li>-->
+			<li><a href="#" class="active"><i><img src="/assets/images/ico_blockchain.png"></i><span>导航</span></a></li>
+		</ul>
+	</div>
+	<div class="home">
+		<div class="positioner">
+			<div class="nonius" id="nonius">
+			</div>
+		</div>
+		<div id="">
+			<ul class="categories nav">
+
+				<li *ngFor="let node of item.items">
+					<a href="#{{node.name}}" title="{{node.title}}" class="active">{{node.title}}</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="donation">
+		<a href="">- 关于我们 -</a>
+	</div>
+</div>
+
+<div class="container main">
+	<div class="container-fluid site-notice">
+		<i><img src="/assets/images/ico_notice.png"></i><a href="#">最好用的币圈导航上线了！</a>
+	</div>
+	<div *ngFor="let node of item.items" class="item-box" id="{{node.name}}">
+		<div class="tile">
+			<h2>{{node.title}}</h2>
+		</div>
+		<div class="row type-list-a">
+			<div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let one of node.items">
+				<a href="#">
+				<i class="ico"><img src="{{one.favicon}}"></i>
+				<div class="info">
+					<h4>{{one.name}}</h4>
+					<p>
+						{{one.title}}
+					</p>
+					<span class="to-this-site"></span>
+				</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="panel-footer">
+	<p>Copyright © T-block.com 2018 All Rights Reserved. 京ICP备00000000号 <a href="mailto:xxx@163.com">联系站长</a></p>
+</div>

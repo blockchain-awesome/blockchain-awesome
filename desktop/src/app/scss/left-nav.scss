@@ -1,0 +1,23 @@
+.left-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 224px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 0 18px 0 #d4dee6;
+  z-index: 1;
+  @import "./logo";
+  @import "./left/items";
+  @import "./left/home";
+  .donation {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+  }
+  .donation>a {
+    color: #333;
+  }
+}
