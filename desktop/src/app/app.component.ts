@@ -32,10 +32,7 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    console.log("inside init");
     this.http.get("/assets/data/sites.json").subscribe((item) => {
-      console.log("get Items");
-      console.log(item);
       /*
         必须是三层的结构：
         第一个元素是根元素，描述网站本身的信息
@@ -65,19 +62,12 @@ export class AppComponent {
   }
   onSelectCoin(coin) {
     this.selected = coin;
-    //this.address = coin.url;
     this.coin.nativeElement.innerHTML = coin.name;
     this.coin.nativeElement.value = coin.name;
 
   }
 
-  goto(coin) {
-
-    console.log("inside goto");
-    console.log(this.address);
-    console.log(this.selected);
-    console.log(this.url.nativeElement.href);
-
+  goto() {
     if (!this.address) {
       return false;
     }
