@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 import { ElementRef, Renderer2 } from '@angular/core';
+import { NgModel } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -14,8 +15,19 @@ import { ElementRef, Renderer2 } from '@angular/core';
 
 export class AppComponent {
   item: object;
+
   @ViewChild('main')
   el: ElementRef;
+
+  @ViewChild('url')
+  url: ElementRef;
+
+  @ViewChild('coin')
+  coin: ElementRef;
+
+  coins;
+  selected;
+  address;
   constructor(private http: HttpClient, private rd: Renderer2) {
   }
 
@@ -32,6 +44,12 @@ export class AppComponent {
         子元素的子元素的子元素是终极目录
        */
       this.item = item;
+      this.coins = [
+        { name: '比特币', url: 'https://blockchain.info/address/' },
+        { name: '以太币', url: 'https://www.etherchain.org/account/' },
+        { name: '莱特币', url: 'http://explorer.litecoin.net/address/' },
+        { name: '以太经典', url: 'https://www.etcchain.com/addr/' }
+      ];
     });
   }
   ngAfterViewInit() {
@@ -44,6 +62,28 @@ export class AppComponent {
     } else {
       this.el.nativeElement.style.paddingLeft = "240px";
     }
+  }
+  onSelectCoin(coin) {
+    this.selected = coin;
+    //this.address = coin.url;
+    this.coin.nativeElement.innerHTML = coin.name;
+    this.coin.nativeElement.value = coin.name;
+
+  }
+
+  goto(coin) {
+
+    console.log("inside goto");
+    console.log(this.address);
+    console.log(this.selected);
+    console.log(this.url.nativeElement.href);
+
+    if (!this.address) {
+      return false;
+    }
+    this.url.nativeElement.href = this.selected.url + this.address;
+
+    return true;
   }
 }
 

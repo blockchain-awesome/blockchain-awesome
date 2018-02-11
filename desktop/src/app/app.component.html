@@ -27,7 +27,7 @@
 				</div>
 			</div>
 			<div class="donation">
-				<a href="https://discord.gg/xDwPmDt" target="_blank"><i class="fab fa-discord"></i></a><br/>
+				<a href="https://discord.gg/bqJEGhr" target="_blank"><i class="fab fa-discord"></i></a><br/>
 				<a href="">- 关于我们 -</a>
 			</div>
 		</div>
@@ -36,33 +36,60 @@
 			<div class="container-fluid site-notice">
 				<i><img src="/assets/images/ico_notice.png"></i><a href="#">最好用的币圈导航上线了！</a>
 			</div>
-			<div *ngIf="item">
-				<div *ngFor="let node of item.items" class="item-box" id="{{node.name}}">
-					<div class="tile">
-						<h2>{{node.title}}</h2>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3">
 					</div>
-					<div class="container-fluid">
-						<div class="row items">
-							<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 item" *ngFor="let one of node.items" title="{{one.title}}">
-								<div href="#">
+					<div class="col-md-6 text-center">
+
+						<form class="form-inline">
+
+							<div class="input-group mx-sm-3 mb-2">
+								<div class="input-group-prepend">
+									<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">请选择币种</button>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#" *ngFor="let coin of coins" (click)="onSelectCoin(coin)">{{coin.name}}</a>
+
+									</div>
+									<label class="input-group-text" #coin aria-label="">@</label>
+								</div>
+								<input type="text" class="form-control" name="address" [(ngModel)]="address" (change)="onChange()" placeholder="请输入你要查询的地址">
+								<div class="input-group-append">
+									<a class="btn btn-outline-secondary  goto" target="_blank" #url (click)="goto()">查询</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-3">
+					</div>
+				</div>
+				<div *ngIf="item">
+					<div *ngFor="let node of item.items" class="item-box" id="{{node.name}}">
+						<div class="tile">
+							<h2>{{node.title}}</h2>
+						</div>
+						<div class="container-fluid">
+							<div class="row items">
+								<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 item" *ngFor="let one of node.items" title="{{one.title}}">
+									<a href="{{one.url}}" target="_blank">
 									<i class="ico"><img src="{{one.favicon}}"></i>
 									<div class="info">
 										<h4>{{one.name}}</h4>
 										<p>
 											{{one.title}}
 										</p>
-										<a href="{{one.url}}" target="_blank" class="to-this-site"></a>
+										<span class="to-this-site"></span>
 									</div>
+								</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="panel-footer">
+					<p>Copyright © tky.im 2018 All Rights Reserved. <a href="mailto:calidion@gmail.com">联系站长</a> </p>
+				</div>
 			</div>
-			<div class="panel-footer">
-				<p>Copyright © tky.im 2018 All Rights Reserved. <a href="mailto:calidion@gmail.com">联系站长</a> </p>
-			</div>
-		</div>
 
+		</div>
 	</div>
-</div>
