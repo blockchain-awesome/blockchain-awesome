@@ -4,8 +4,8 @@
   "title": "田一块币圈导航",
   "items": [
     {
-      "name": "加密币",
-      "title": "加密币",
+      "name": "主流加密币",
+      "title": "主流加密币",
       "order": 1,
       "more": "https://forum.webfullstack.me/?category=5a76e90ce330b34d3feb1545",
       "items": [
@@ -63,13 +63,15 @@
           "favicon": "https://neo.org/images/favicon.png",
           "name": "NEO",
           "title": "让你以为是NGO的一种币"
-        },
-        {
-          "url": "https://eos.io/",
-          "favicon": "/assets/images/eos.ico",
-          "name": "EOS",
-          "title": "一个什么都想做的ETH山寨币"
-        },
+        }
+      ]
+    },
+    {
+      "name": "比特币分叉币",
+      "title": "比特币分叉币",
+      "order": 1,
+      "more": "https://forum.webfullstack.me/?category=5a76e90ce330b34d3feb1545",
+      "items": [
         {
           "url": "https://www.bitcoincash.org/",
           "favicon": "https://www.bitcoincash.org/favicon.ico",
@@ -87,6 +89,43 @@
           "favicon": "https://btcdimage.blob.core.windows.net/websitev2/favicon.ico",
           "name": "Bitcoin Diamond (BCD)",
           "title": "第一个人们不想看到的的儿子"
+        },
+        {
+          "url": "https://bcx.org/",
+          "favicon": "https://bcx.org/static/img/favicon.ico",
+          "name": "比特无限(BCX)",
+          "title": "不知道能不能装成功"
+        }
+      ]
+    },
+    {
+      "name": "以太坊Token",
+      "title": "以太坊Token",
+      "order": 1,
+      "items": [
+        {
+          "url": "https://eos.io/",
+          "favicon": "/assets/images/eos.ico",
+          "name": "EOS",
+          "title": "一个什么都想做的ETH山寨币"
+        },
+        {
+          "url": "https://tron.network/",
+          "favicon": "https://avatars0.githubusercontent.com/u/34857411?s=200&v=4",
+          "name": "Tron (TRX)",
+          "title": "Tron (TRX)"
+        },
+        {
+          "url": "https://qtum.org/",
+          "favicon": "https://qtum.org/images/favicons/favicon.png",
+          "name": "量子链(QTUM)",
+          "title": "量子链"
+        },
+        {
+          "url": "https://omisego.network/",
+          "favicon": "https://assets.omise.co/assets/apple-touch-icon-b56ee01e74e3bc2fdb7cc8483bd0edc838b3c8d627ad8f43e524483b3cd8821c.png",
+          "name": "OmiseGO",
+          "title": "OmiseGO"
         }
       ]
     },
@@ -290,6 +329,12 @@
           "favicon": "https://nanopool.org/icons/favicon-32x32.png",
           "name": "nanopool",
           "title": "nanopool"
+        },
+        {
+          "url": "http://www.beepool.org/",
+          "favicon": "http://www.beepool.org/images/logo.png",
+          "name": "蜜蜂矿池",
+          "title": "蜜蜂矿池"
         }
       ]
     },
