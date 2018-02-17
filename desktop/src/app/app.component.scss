@@ -93,15 +93,12 @@ body {
     }
     >.item {
         margin-top: 10px;
-        >div:hover {
+        >a:hover {
             box-shadow: 0 20px 40px -20px rgba(0, 0, 0, .2);
             background: #f0f1f8;
             >.info>h4 {
                 color: #008dde;
                 transition: all 0.3s !important;
-                height: 20px;
-                line-height: 20px;
-                text-overflow: hidden
             }
         }
         >a {
