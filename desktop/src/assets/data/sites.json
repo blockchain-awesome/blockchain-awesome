@@ -95,6 +95,18 @@
           "favicon": "https://bcx.org/static/img/favicon.ico",
           "name": "比特无限(BCX)",
           "title": "不知道能不能装成功"
+        },
+        {
+          "url": "http://bitcoinfaith.org",
+          "favicon": "http://bitcoinfaith.org/favicon.ico",
+          "name": "比特信仰(BCF)",
+          "title": "难道比特币已经成为一种信仰？那为什么又创建一个新的币呢？"
+        },
+        {
+          "url": "http://www.superbtc.org",
+          "favicon": "http://www.superbtc.org/fav.png",
+          "name": "超级比特币(SBTC)",
+          "title": "超级比特币(SBTC)"
         }
       ]
     },
