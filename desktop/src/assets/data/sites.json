@@ -138,6 +138,37 @@
           "favicon": "https://assets.omise.co/assets/apple-touch-icon-b56ee01e74e3bc2fdb7cc8483bd0edc838b3c8d627ad8f43e524483b3cd8821c.png",
           "name": "OmiseGO",
           "title": "OmiseGO"
+        },
+        {
+          "url": "https://mvs.org/",
+          "favicon": "https://mvs.org/images/touch-icons/apple-touch-icon.png",
+          "name": "Metaverse元界",
+          "title": "Metaverse元界"
+        }
+      ]
+    },
+    {
+      "name": "存储币",
+      "title": "存储币",
+      "order": 1,
+      "items": [
+        {
+          "url": "http://sia.tech/",
+          "favicon": "http://sia.tech/apple-touch-icon.png",
+          "name": "sia",
+          "title": "sia"
+        },
+        {
+          "url": "https://storj.io/",
+          "favicon": "https://storj.io/img/favicon/favicon-96x96.png",
+          "name": "Storj",
+          "title": "Storj"
+        },
+        {
+          "url": "http://www.blockcdn.org/",
+          "favicon": "http://www.blockcdn.org/resource/favicon.ico",
+          "name": "Storj",
+          "title": "Storj"
         }
       ]
     },
@@ -211,6 +242,18 @@
           "favicon": "assets/images/bitstamp.ico",
           "name": "Bitstamp",
           "title": "Bitstamp"
+        },
+        {
+          "url": "https://big.one/",
+          "favicon": "https://big.one/assets/icons-97e37c5e2bc3e2b4437a4029b367a49c-apple-touch-icon-60x60.png",
+          "name": "BigONE",
+          "title": "BigONE"
+        },
+        {
+          "url": "https://www.hpx.com/",
+          "favicon": "https://www.hpx.com/static/common/hsr_favicon.ico",
+          "name": "HPX",
+          "title": "HPX"
         }
       ]
     },
@@ -347,6 +390,12 @@
           "favicon": "http://www.beepool.org/images/logo.png",
           "name": "蜜蜂矿池",
           "title": "蜜蜂矿池"
+        },
+        {
+          "url": "https://www.vvpool.com",
+          "favicon": "https://www.vvpool.com/static/img/favicon.ico?v=f259cefc551eef292718e22786679638",
+          "name": "VVPool",
+          "title": "VVPool"
         }
       ]
     },
