@@ -167,8 +167,27 @@
         {
           "url": "http://www.blockcdn.org/",
           "favicon": "http://www.blockcdn.org/resource/favicon.ico",
-          "name": "Storj",
-          "title": "Storj"
+          "name": "BlockCDN",
+          "title": "BlockCDN"
+        }
+      ]
+    },
+    {
+      "name": "交易所币",
+      "title": "交易所币，即交易所发行的代币",
+      "order": 1,
+      "items": [
+        {
+          "url": "https://etherscan.io/token/BNB",
+          "favicon": "assets/images/binance_icon.png",
+          "name": "币安币（BNB）",
+          "title": "币安币（BNB）"
+        },
+        {
+          "url": "https://www.huobi.pro/zh-cn/ht/",
+          "favicon": "https://www.huobi.pro/favicon.ico",
+          "name": "火币网Token（HT）",
+          "title": "火币网Token（HT）"
         }
       ]
     },
@@ -254,6 +273,36 @@
           "favicon": "https://www.hpx.com/static/common/hsr_favicon.ico",
           "name": "HPX",
           "title": "HPX"
+        },
+        {
+          "url": "https://www.coinex.com",
+          "favicon": "https://www.coinex.com/favicon.ico",
+          "name": "coinex",
+          "title": "coinex"
+        },
+        {
+          "url": "https://www.kucoin.com/",
+          "favicon": "https://assets.kucoin.com/www/1.4.34/common/assets/icon.png?v=1",
+          "name": "KuCoin",
+          "title": "KuCoin"
+        },
+        {
+          "url": "https://c-cex.com/",
+          "favicon": "https://c-cex.com/favicon.ico?v=2",
+          "name": "C-CEX",
+          "title": "C-CEX"
+        },
+        {
+          "url": "https://crypto-bridge.org/",
+          "favicon": "https://crypto-bridge.org/favicon.ico",
+          "name": "CryptoBridge",
+          "title": "CryptoBridge"
+        },
+        {
+          "url": "https://hitbtc.com/",
+          "favicon": "https://hitbtc.com/favicon.ico?v=4",
+          "name": "hitBTC",
+          "title": "hitBTC"
         }
       ]
     },
@@ -396,6 +445,12 @@
           "favicon": "https://www.vvpool.com/static/img/favicon.ico?v=f259cefc551eef292718e22786679638",
           "name": "VVPool",
           "title": "VVPool"
+        },
+        {
+          "url": "https://www.hashvault.pro/",
+          "favicon": "https://www.hashvault.pro/assets/favicon/favicon-32x32.png",
+          "name": "Hash Vault",
+          "title": "Hash Vault"
         }
       ]
     },
