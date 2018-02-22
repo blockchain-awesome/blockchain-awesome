@@ -63,6 +63,18 @@
           "favicon": "https://neo.org/images/favicon.png",
           "name": "NEO",
           "title": "让你以为是NGO的一种币"
+        },
+        {
+          "url": "https://deeponion.org",
+          "favicon": "https://deeponion.org/img/apple-touch-icon.png",
+          "name": "深洋葱",
+          "title": "深洋葱"
+        },
+        {
+          "url": "https://bytecoin.org/",
+          "favicon": "https://bytecoin.org/storage/logo.png",
+          "name": "Bytecoin",
+          "title": "Bytecoin"
         }
       ]
     },
@@ -303,6 +315,18 @@
           "favicon": "https://hitbtc.com/favicon.ico?v=4",
           "name": "hitBTC",
           "title": "hitBTC"
+        },
+        {
+          "url": "https://iqoption.com",
+          "favicon": "https://iqoption.com/assets/images/favicons/apple-touch-icon-180x180.png?v=XBBobPBryW",
+          "name": "IQ Option",
+          "title": "IQ Option"
+        },
+        {
+          "url": "https://www.etoro.com/",
+          "favicon": "https://nas.etorostatic.com/images/mobile-app-icons/touch-icon-ipad-144.png",
+          "name": "eToro",
+          "title": "eToro"
         }
       ]
     },
@@ -316,6 +340,37 @@
           "favicon": "https://localbitcoins.com/cached-static/img/touch-icon-144.28f60a5711cc.png",
           "name": "localbitcoins",
           "title": "某国外点对点交易平台"
+        }
+      ]
+    },
+    {
+      "name": "行情信息",
+      "title": "行情信息",
+      "order": 1,
+      "items": [
+        {
+          "url": "https://www.coingecko.com",
+          "favicon": "https://www.coingecko.com/favicon.ico",
+          "name": "CoinGecko(币虎)",
+          "title": "CoinGecko(币虎)"
+        },
+        {
+          "url": "https://coinmarketcap.com",
+          "favicon": "https://coinmarketcap.com/favicon.ico",
+          "name": "Cryptocurrency Market Capitalizations",
+          "title": "Cryptocurrency Market Capitalizations"
+        },
+        {
+          "url": "https://www.feixiaohao.com/",
+          "favicon": "https://static.feixiaohao.com/themes/default/images/fav.ico",
+          "name": "非小号",
+          "title": "非小号"
+        },
+        {
+          "url": "https://bitscreener.com/",
+          "favicon": "https://bitscreener.com/static/favicon/apple-icon-57x57.png",
+          "name": "BitScreener",
+          "title": "BitScreener"
         }
       ]
     },
@@ -501,6 +556,25 @@
           "favicon": "assets/images/8btc.ico",
           "name": "巴比特论坛",
           "title": "巴比特论坛"
+        }
+      ]
+    },
+    {
+      "name": "挖矿网站",
+      "title": "挖矿网站",
+      "order": 1,
+      "items": [
+        {
+          "url": "https://whattomine.com/",
+          "favicon": "https://whattomine.com/favicon.ico",
+          "name": "WhatToMine",
+          "title": "WhatToMine"
+        },
+        {
+          "url": "http://altcoins.com/",
+          "favicon": "http://altcoins.com/wp-content/themes/skeleton/images/favicon.ico",
+          "name": "Altcoins",
+          "title": "Altcoins"
         }
       ]
     }
