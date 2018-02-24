@@ -200,6 +200,12 @@
           "favicon": "https://www.huobi.pro/favicon.ico",
           "name": "火币网Token（HT）",
           "title": "火币网Token（HT）"
+        },
+        {
+          "url": "https://www.bridgecoin.org/",
+          "favicon": "https://crypto-bridge.org/favicon.ico",
+          "name": "BridgeCoin",
+          "title": "BridgeCoin"
         }
       ]
     },
@@ -566,7 +572,7 @@
       "items": [
         {
           "url": "https://whattomine.com/",
-          "favicon": "https://whattomine.com/favicon.ico",
+          "favicon": "assets/images/whattomine.ico",
           "name": "WhatToMine",
           "title": "WhatToMine"
         },
