@@ -311,12 +311,6 @@
           "title": "C-CEX"
         },
         {
-          "url": "https://crypto-bridge.org/",
-          "favicon": "https://crypto-bridge.org/favicon.ico",
-          "name": "CryptoBridge",
-          "title": "CryptoBridge"
-        },
-        {
           "url": "https://hitbtc.com/",
           "favicon": "https://hitbtc.com/favicon.ico?v=4",
           "name": "hitBTC",
@@ -346,6 +340,25 @@
           "favicon": "https://localbitcoins.com/cached-static/img/touch-icon-144.28f60a5711cc.png",
           "name": "localbitcoins",
           "title": "某国外点对点交易平台"
+        }
+      ]
+    },
+    {
+      "name": "去中心(或者号称)交易所",
+      "title": "去中心(或者号称)交易所",
+      "order": 1,
+      "items": [
+        {
+          "url": "https://bitshares.org/",
+          "favicon": "https://bitshares.org/favicon.ico",
+          "name": "bitshares",
+          "title": "bitshares"
+        },
+        {
+          "url": "https://crypto-bridge.org/",
+          "favicon": "https://crypto-bridge.org/favicon.ico",
+          "name": "CryptoBridge",
+          "title": "CryptoBridge"
         }
       ]
     },
@@ -581,6 +594,18 @@
           "favicon": "http://altcoins.com/wp-content/themes/skeleton/images/favicon.ico",
           "name": "Altcoins",
           "title": "Altcoins"
+        },
+        {
+          "url": "https://coinhive.com/",
+          "favicon": "https://coinhive.com/media/coinhive-icon.png",
+          "name": "Coinhive(网页挖矿)",
+          "title": "Coinhive"
+        },
+        {
+          "url": "https://wk588.com/",
+          "favicon": "https://img.wk588.com/wkcssimg/favicon.ico",
+          "name": "挖矿588",
+          "title": "挖矿588"
         }
       ]
     }
